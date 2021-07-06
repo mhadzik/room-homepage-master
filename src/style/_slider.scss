@@ -1,4 +1,35 @@
 .slider {
   &__container {
   }
+
+  &__col {
+    &--left {
+    }
+    &--right {
+      padding: 7em 7.5em;
+
+      span {
+        margin-top: 3em;
+      }
+
+      a {
+        font-size: 1em;
+        letter-spacing: 0.9em;
+        color: $black;
+        font-weight: $font-weight-regular;
+      }
+      a:hover {
+        color: $grey-dark;
+        transition: 250ms;
+      }
+      a:hover path {
+        fill: $grey-dark;
+        transition: 250ms;
+      }
+
+      svg {
+        margin-left: 3em;
+      }
+    }
+  }
 }
