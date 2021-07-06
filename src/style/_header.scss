@@ -1,0 +1,13 @@
+.header {
+  &__nav {
+    padding-top: 3em;
+    background: transparent;
+    &--list {
+      list-style-type: none;
+    }
+
+    &--item {
+      margin-left: 1em;
+    }
+  }
+}
