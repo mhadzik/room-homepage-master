@@ -30,15 +30,7 @@ module.exports = {
         use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
-        test: /\.svg$/,
-        loader: "svg-sprite-loader",
-        options: {
-          extract: true,
-          spriteFilename: "svg-defs.svg",
-        },
-      },
-      {
-        test: /\.(jpe?g|png|gif)\$/,
+        test: /\.(jpe?g|png|gif|svg)\$/,
         use: [
           {
             loader: "file-loader",
