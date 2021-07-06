@@ -13,7 +13,12 @@
 /* ##### HEADER ##### */
 @import "header";
 
+/* ##### SLIDER ##### */
+@import "slider";
+
 body {
+  margin: 0;
+  padding: 0;
   font-family: $font-family;
   font-size: $font-size;
 }

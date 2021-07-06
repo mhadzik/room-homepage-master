@@ -1,13 +1,32 @@
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+
   &__nav {
     padding-top: 3em;
     background: transparent;
+
     &--list {
       list-style-type: none;
     }
 
     &--item {
-      margin-left: 1em;
+      margin-left: 3em;
+      a {
+        color: $white;
+        text-decoration: none;
+        padding-bottom: 5px;
+      }
+      a:hover {
+        border-bottom: 2px solid $white;
+        transition: 200ms;
+      }
+    }
+
+    &--logo {
+      margin-right: 2em;
+      margin-left: 2em;
     }
   }
 }
