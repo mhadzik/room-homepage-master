@@ -6,8 +6,6 @@
     &--left {
     }
     &--right {
-      padding: 7em 7.5em;
-
       span {
         margin-top: 3em;
       }
@@ -18,6 +16,16 @@
         color: $black;
         font-weight: $font-weight-regular;
       }
+      
+
+      svg {
+        margin-left: 3em;
+      }
+    }
+
+    &--content{
+      padding: 7em 7.5em;
+
       a:hover {
         color: $grey-dark;
         transition: 250ms;
@@ -26,10 +34,29 @@
         fill: $grey-dark;
         transition: 250ms;
       }
+    }
+  }
 
-      svg {
-        margin-left: 3em;
-      }
+  &__arrows {
+    margin-top: -0.83em;
+
+    &.arrow{
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    margin-right: -3px;
+
+    &:hover{
+      background-color: $grey-very-dark;
+      transition: 250ms;
+    }
+
+    svg {
+      position: absolute;
+      top: 36%;
+    }
     }
   }
 }

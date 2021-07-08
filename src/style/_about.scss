@@ -1,0 +1,18 @@
+.about {
+    margin-top: -4px;
+    &__container {
+    
+    }
+
+    &__col {
+        &--left{
+
+        }
+        &--middle{
+            padding: 5.5em 3.1em;
+
+        }
+        &--right{
+        }
+    }
+}
